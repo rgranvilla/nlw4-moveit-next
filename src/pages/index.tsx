@@ -31,6 +31,7 @@ export default function Home(props: HomeProps) {
         <Head>
           <title>Início | move.it</title>
         </Head>
+
         <ControlBar />
 
         <ExperienceBar />

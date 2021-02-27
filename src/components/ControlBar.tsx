@@ -3,11 +3,7 @@ import React, { useState } from 'react';
 import styles from '../styles/components/ControlBar.module.css';
 import { SwitchButton } from './SwitchButton';
 
-interface Props {
-  toggleTheme(): void;
-}
-
-const ControlBar: React.FC<Props> = () => {
+const ControlBar: React.FC = () => {
   const [isToggled, setIsToggled] = useState(false);
 
   function changeTheme() {
