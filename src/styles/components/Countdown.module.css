@@ -25,10 +25,10 @@
 }
 
 .countdownContainer > div span:first-child {
-  border-right: 1px solid #f0f1f3;
+  border-right: 1px solid var(--background);
 }
 .countdownContainer > div span:last-child {
-  border-left: 1px solid #f0f1f3;
+  border-left: 1px solid var(--background);
 }
 
 .countdownContainer > span {
@@ -74,7 +74,7 @@
 
 .countdownButton:disabled {
   background: var(--white);
-  color: var(--text);
+  color: var(--title);
   cursor: not-allowed;
   border-bottom: 0.25rem solid var(--green);
   display: flex;

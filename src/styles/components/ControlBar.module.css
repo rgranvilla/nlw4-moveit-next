@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 8rem;
+  width: 100vw;
+  height: 3.75rem;
+
+  font-weight: 600;
+  font-size: 2.5rem;
+
+  color: var(--textControlBar);
+  background-color: var(--bgControlBar);
+}
+
+.sunIconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(3px);
+}
+
+.iconLight {
+  height: 18px;
+  color: var(--bgControlBar);
+}
+
+.moonIconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(3px);
+}
+
+.iconDark {
+  height: 18px;
+  color: var(--textControlBar);
+}

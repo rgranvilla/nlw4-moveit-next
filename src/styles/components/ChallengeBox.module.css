@@ -17,6 +17,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  color: var(--challengeText);
 }
 
 .challengeNotActive strong {
@@ -64,12 +66,13 @@
 .challengeActive main strong {
   font-size: 2rem;
   font-weight: 600;
-  color: var(--title);
+  color: var(--challengeTitle);
   margin: 1.5rem 0 1rem;
 }
 
 .challengeActive main p {
   line-height: 1.5;
+  color: var(--challengeText);
 }
 
 .challengeActive footer {
@@ -102,6 +105,7 @@
 
 .challengeActive footer button.challengeSucceededButton {
   background: var(--green);
+  color: var(--white);
 }
 
 .challengeActive footer button:hover {

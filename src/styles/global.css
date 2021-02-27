@@ -1,8 +1,8 @@
 :root {
-  --white: #fff;
+  /* General */
+  --white: #ffffff;
   --background: #f2f3f5;
-  --gray-line: #dcdde0;
-  --text: #666;
+  --text: #666666;
   --text-highlight: #b3b9ff;
   --title: #2e384d;
   --red: #e83f5b;
@@ -10,6 +10,55 @@
   --blue: #5965e0;
   --blue-dark: #4953b8;
   --blue-twitter: #2aa9e0;
+  --gray-line: #564f66;
+
+  /* ControlBar */
+  --textControlBar: #b3b9ff;
+  --bgControlBar: #6773ff;
+
+  /* Switch */
+  --switchColor: #e6e8ff;
+  --switchBgColor: #e6e8ff30;
+
+  /* ExperienceBar */
+  --bgProgressIndicator: #dcdde0;
+  --progressIndicator: #4cd62b;
+
+  /* ChallengeBox */
+  --challengeTitle: #5965e0;
+  --challengeText: #262233;
+  --buttonText: #e6e8ff;
+}
+
+.dark-mode {
+  /* General */
+  --white: #e5e5e5;
+  --background: #262233;
+  --text: #ece6fa;
+  --text-highlight: #382073;
+  --title: #6647b5;
+  --red: #e83f5b;
+  --blue: #5965e0;
+  --blue-dark: #4953b8;
+  --blue-twitter: #2aa9e0;
+  --gray-line: #564f66;
+
+  /* ControlBar */
+  --textControlBar: #ece6fa;
+  --bgControlBar: #1d1a26;
+
+  /* Switch */
+  --switchColor: #ece6fa;
+  --switchBgColor: #564f6630;
+
+  /* ExperienceBar */
+  --bgProgressIndicator: #564f66;
+  --progressIndicator: #6d01b5;
+
+  /* ChallengeBox */
+  --challengeTitle: #6647b5;
+  --challengeText: #262233;
+  --buttonText: #e6e8ff;
 }
 
 * {
