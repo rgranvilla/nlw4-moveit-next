@@ -1,4 +1,8 @@
 .container {
+  display: flex;
+}
+
+.contentContainer {
   height: 100vh;
   max-width: 992px;
   margin: 0 auto;

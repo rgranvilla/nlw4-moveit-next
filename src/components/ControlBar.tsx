@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 
 import styles from '../styles/components/ControlBar.module.css';
-import { SwitchButton } from './SwitchButton';
+import SwitchToggle from './SwitchToggle';
+// import { SwitchButton } from './SwitchButton';
 
 const ControlBar: React.FC = () => {
   const [isToggled, setIsToggled] = useState(false);
@@ -14,8 +15,12 @@ const ControlBar: React.FC = () => {
 
   return (
     <div className={styles.container}>
-      MoveIt
-      <SwitchButton isToggled={isToggled} onToggle={changeTheme} />
+      <figure>
+        <img src="logo-full.svg" alt="Move It" />
+      </figure>
+      <div>
+        <SwitchToggle />
+      </div>
     </div>
   );
 };

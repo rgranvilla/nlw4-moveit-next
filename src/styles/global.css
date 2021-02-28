@@ -14,7 +14,7 @@
 
   /* ControlBar */
   --textControlBar: #b3b9ff;
-  --bgControlBar: #6773ff;
+  --bgControlBar: #382073;
 
   /* Switch */
   --switchColor: #e6e8ff;
@@ -65,6 +65,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
 }
 
 @media (max-width: 1080px) {

@@ -28,26 +28,29 @@ export default function Home(props: HomeProps) {
       challengesCompleted={props.challengesCompleted}
     >
       <div className={styles.container}>
-        <Head>
-          <title>Início | move.it</title>
-        </Head>
+        <aside className={styles.controlContainer}>
+          <ControlBar />
+        </aside>
+        <div className={styles.contentContainer}>
+          <Head>
+            <title>Início | move.it</title>
+          </Head>
 
-        <ControlBar />
+          <ExperienceBar />
 
-        <ExperienceBar />
-
-        <CountdownProvider>
-          <section>
-            <div>
-              <Profile />
-              <CompletedChallenges />
-              <Countdown />
-            </div>
-            <div>
-              <ChallengeBox />
-            </div>
-          </section>
-        </CountdownProvider>
+          <CountdownProvider>
+            <section>
+              <div>
+                <Profile />
+                <CompletedChallenges />
+                <Countdown />
+              </div>
+              <div>
+                <ChallengeBox />
+              </div>
+            </section>
+          </CountdownProvider>
+        </div>
       </div>
     </ChallengesProvider>
   );
